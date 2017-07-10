@@ -1,0 +1,153 @@
+body {
+  background: #fff;
+  color: #1d2129;
+  direction: ltr;
+  line-height: 1.34;
+  margin: 0;
+  padding: 0;
+  unicode-bidi: embed; }
+
+body,
+button,
+input,
+label,
+select,
+td,
+textarea {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #1d2129;
+  font-size: 13px;
+  margin: 0;
+  padding: 0; }
+
+h1 {
+  font-size: 14px; }
+
+h4,
+h5,
+h6 {
+  font-size: 12px; }
+
+p {
+  margin: 1em 0; }
+
+a {
+  color: #365899;
+  cursor: pointer;
+  text-decoration: none; }
+
+button {
+  margin: 0; }
+
+a:hover {
+  text-decoration: underline; }
+
+img {
+  border: 0; }
+
+td,
+td.label {
+  text-align: left; }
+
+dd {
+  color: #000; }
+
+dt {
+  color: #777; }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+abbr {
+  border-bottom: none;
+  text-decoration: none; }
+
+hr {
+  background: #d9d9d9;
+  border-width: 0;
+  color: #d9d9d9;
+  height: 1px; }
+
+.clearfix:after {
+  clear: both;
+  content: ".";
+  display: block;
+  font-size: 0;
+  height: 0;
+  line-height: 0;
+  visibility: hidden; }
+
+.clearfix {
+  zoom: 1; }
+
+.datawrap {
+  word-wrap: break-word; }
+
+.page-bar {
+  height: 43px;
+  background-color: blue; }
+  .page-bar ._2md {
+    background-image: url(https://www.facebook.com/rsrc.php/v3/y7/r/dTQOHZm7Z-3.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 0 0;
+    display: block;
+    height: 24px;
+    outline: none;
+    overflow: hidden;
+    text-indent: -999px;
+    white-space: nowrap;
+    width: 24px; }
+
+.left-side-bar {
+  width: 29%;
+  height: 100%;
+  float: left;
+  background-color: #e9ebee;
+  border: 1px solid red; }
+
+.content-container {
+  width: 70%;
+  float: right; }
+  .content-container .news {
+    background-color: green;
+    width: 40%;
+    float: right; }
+  .content-container .content {
+    background-color: white;
+    width: 58%;
+    padding: 0;
+    margin-top: 7px; }
+
+.photo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 95%;
+  margin: 0 auto; }
+
+.grid-figure {
+  flex-basis: calc(33.333% - 4rem);
+  flex-grow: 1;
+  flex-shrink: 0;
+  padding: 2rem;
+  border: 1px solid lightgray;
+  background: white;
+  box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.03);
+  position: relative;
+  width: 86%;
+  margin: 0px;
+  width: 86%;
+  margin-bottom: 20px;
+  border-radius: 5px; }
+  .grid-figure img {
+    width: 100%; }
